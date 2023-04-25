@@ -7,7 +7,8 @@ matriz = []
     for i in range(n):
         linha = []
         for j in range(m):
-            linha.append(random.randint(0, 1000))
+            linha.append(random.randint(0, 10))
             matriz.append(linha)
-    print(linha)
+            print(matriz)
+
 
